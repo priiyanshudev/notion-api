@@ -2,7 +2,7 @@ import { Client } from "@notionhq/client";
 
 export default async function handler(req, res) {
 
-  // ✅ CORS fix
+  // 👇 YE YAHI LIKHNA HAI (TOP PE)
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
